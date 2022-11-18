@@ -509,9 +509,9 @@ INSERT INTO inventory (character_id, item_id) VALUES (new_character,new_item );
 
 
 END;;
-DELIMITER;
 
-DELIMITER ;;
+
+
 CREATE PROCEDURE set_winners(id_team INT UNSIGNED)
 BEGIN
 
