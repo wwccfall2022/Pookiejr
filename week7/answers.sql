@@ -406,9 +406,8 @@ DELIMITER ;;
         RETURN total_armor;
 
     END;; 
-DELIMITER;
      
-DELIMITER ;;
+
 CREATE PROCEDURE attack(attacked_character_id INT UNSIGNED, equipped_id INT UNSIGNED)
 
 BEGIN
